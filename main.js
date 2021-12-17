@@ -1,6 +1,3 @@
-
-// let playSound = () => new Audio("/storage/TumMile.mp3").play();
-// let Sound = () => new Audio("/storage/TumMile.mp3").pause();
 var audio = document.getElementById('audio-1');
 var playPauseBTN = document.getElementById('playPauseBTN');
 var count = 0;
@@ -47,7 +44,7 @@ function stop1() {
 // Song 3
 var audio3 = document.getElementById('audio-3');
 var playPauseBTN3 = document.getElementById('playPauseBTN3');
-function playpause() {
+function playpause3() {
     if (count == 0) {
         count = 1;
         audio3.play();
@@ -59,8 +56,8 @@ function playpause() {
         playPauseBTN3.innerHTML = "Play &#9211;";
     }
 }
-function stop() {
-    playpause();
+function stop3() {
+    playpause3();
     audio3.pause();
     audio3.currentTime = 0;
     playPauseBTN3.innerHTML = "Play &#9211;";
@@ -69,7 +66,7 @@ function stop() {
 var audio4 = document.getElementById('audio-4');
 var playPauseBTN4 = document.getElementById('playPauseBTN4');
 var count = 0;
-function playpause() {
+function playpause4() {
     if (count == 0) {
         count = 1;
         audio4.play();
@@ -81,8 +78,8 @@ function playpause() {
         playPauseBTN4.innerHTML = "Play &#9211;";
     }
 }
-function stop() {
-    playpause();
+function stop4() {
+    playpause4();
     audio4.pause();
     audio4.currentTime = 0;
     playPauseBTN4.innerHTML = "Play &#9211;";
@@ -91,7 +88,7 @@ function stop() {
 var audio5 = document.getElementById('audio-5');
 var playPauseBTN5 = document.getElementById('playPauseBTN5');
 var count = 0;
-function playpause() {
+function playpause5() {
     if (count == 0) {
         count = 1;
         audio5.play();
@@ -103,8 +100,8 @@ function playpause() {
         playPauseBTN5.innerHTML = "Play &#9211;";
     }
 }
-function stop() {
-    playpause();
+function stop5() {
+    playpause5();
     audio5.pause();
     audio5.currentTime = 0;
     playPauseBTN5.innerHTML = "Play &#9211;";
