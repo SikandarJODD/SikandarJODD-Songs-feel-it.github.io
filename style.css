@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Baloo+Bhaina+2&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#nav-jain a{
+    background: linear-gradient(to right, #341ff8, #3203dd);
+    background-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    /* font-weight: 650; */
+}
+.content-1{
+    background: #11998e; 
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
+background: linear-gradient(to right, #38ef7d, #11998e);
+}
+.card{
+    margin: 23px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card:hover{
+  
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: #11998e; 
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+    background: linear-gradient(to right, #38ef7d, #11998e);
+}
+.lead-1{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.merge{
+    display: flex;
+    margin: 0px -12px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto 3px;
+    font-size: 18px;
+    
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.lofi-1{
+    display: flex;
+    /* margin-left:30px; */
+    width: 90%;
+    margin: auto;
+ 
+}
+.marathi-1{
+    display: flex;
+    width: 14%;
+    margin: 12px auto;
+    border: 0.1px solid blue;
+    padding: 12px 10px;
+    background-color: #a4f7f0;
+    border-radius: 31px 0px 29px 0px;
+}
+hr{
+    width: 60%;
+    margin: auto;
+}
+.listen{
+   margin: 0 -3px;
+    display: flex;
+    align-items: center;
+}
+
+/* Media Querries */
+/* Media Querries */
+@media (max-width: 575.98px) { 
+    .lofi-1{
+        display: block;
+    }
+    .marathi-1{
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        margin-top: 22px;
+    }
+}
+
+/* @media (max-width: 767.98px) { ... }
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
+
+@media (max-width: 1399.98px) { ... } */
+
+
