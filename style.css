@@ -6,19 +6,40 @@
     box-sizing: border-box;
 
 }
-#nav-jain a{
-    background: linear-gradient(to right, #341ff8, #3203dd);
+#nav-jain {
+    background: linear-gradient(to right, #1ef8ff, #0ef70e);
     background-color: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    /* font-weight: 650; */
+    font-weight: 650;
 }
+#navg{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    align-items: center;
+}
+#navg li a{
+    font-size: 19px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#navg li a:hover{
+    background: linear-gradient(to right, #1ef8ff, #0ef70e);
+    background-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 650;
+}
+
 .content-1{
-    background: #11998e; 
-background: -webkit-linear-gradient(to right, #38ef7d, #11998e); 
-background: linear-gradient(to right, #38ef7d, #11998e);
+    background: rgb(249,0,0);
+    background: linear-gradient(317deg, rgba(249,0,0,1) 10%, rgba(198,44,177,1) 57%, rgba(194,43,179,1) 63%, rgba(121,29,253,1) 98%);
 }
 .card{
     margin: 23px 20px;
@@ -87,6 +108,9 @@ hr{
         width: 60%;
         justify-content: center;
         margin-top: 22px;
+    }
+    #nav-jain{
+        margin-left: 120px;
     }
 }
 
