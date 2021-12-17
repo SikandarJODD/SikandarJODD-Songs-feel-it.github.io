@@ -42,7 +42,8 @@
     background: linear-gradient(317deg, rgba(249,0,0,1) 10%, rgba(198,44,177,1) 57%, rgba(194,43,179,1) 63%, rgba(121,29,253,1) 98%);
 }
 .card{
-    margin: 23px 20px;
+    margin: 20px 20px;
+    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .card:hover{
@@ -112,6 +113,13 @@ hr{
     #nav-jain{
         margin-left: 120px;
     }
+    .main-cont{
+        background: rgb(238,0,218);
+        background: linear-gradient(0deg, rgba(238,0,218,1) 4%, rgba(99,50,228,1) 17%, rgba(241,15,180,1) 84%);
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+     
 }
 
 /* @media (max-width: 767.98px) { ... }

@@ -106,3 +106,69 @@ function stop5() {
     audio5.currentTime = 0;
     playPauseBTN5.innerHTML = "Play &#9211;";
 }
+// song 6
+var audio6 = document.getElementById('audio-6');
+var playPauseBTN6 = document.getElementById('playPauseBTN6');
+var count = 0;
+function playpause6() {
+    if (count == 0) {
+        count = 1;
+        audio6.play();
+        playPauseBTN6.innerHTML = "Pause &#9208;";
+    }
+    else {
+        count = 0;
+        audio6.pause();
+        playPauseBTN6.innerHTML = "Play &#9211;";
+    }
+}
+function stop6() {
+    playpause6();
+    audio6.pause();
+    audio6.currentTime = 0;
+    playPauseBTN6.innerHTML = "Play &#9211;";
+}
+// song 7
+var audio7 = document.getElementById('audio-7');
+var playPauseBTN7 = document.getElementById('playPauseBTN7');
+var counta = 0;
+function playpause7() {
+    if (counta == 0) {
+        counta = 1;
+        audio7.play();
+        playPauseBTN7.innerHTML = "Pause &#9208;";
+    }
+    else {
+        counta = 0;
+        audio7.pause();
+        playPauseBTN7.innerHTML = "Play &#9211;";
+    }
+}
+function stop7() {
+    playpause7();
+    audio7.pause();
+    audio7.currentTime = 0;
+    playPauseBTN7.innerHTML = "Play &#9211;";
+}
+// song 8
+var audio8 = document.getElementById('audio-8');
+var playPauseBTN8 = document.getElementById('playPauseBTN8');
+var counta = 0;
+function playpause8() {
+    if (counta == 0) {
+        counta = 1;
+        audio8.play();
+        playPauseBTN7.innerHTML = "Pause &#9208;";
+    }
+    else {
+        counta = 0;
+        audio8.pause();
+        playPauseBTN8.innerHTML = "Play &#9211;";
+    }
+}
+function stop8() {
+    playpause7();
+    audio8.pause();
+    audio8.currentTime = 0;
+    playPauseBTN7.innerHTML = "Play &#9211;";
+}
